@@ -1,0 +1,10 @@
+#include <stdio.h>
+/**
+ * main - A program that prints a line with the printf function
+ * Return: 0
+ */
+int main(void)
+{
+print("with proper grammar, but the outcome is a piece of art, \n")
+returb (0);
+}
