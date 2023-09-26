@@ -1,4 +1,4 @@
-#include "list.h"
+#include "lists.h"
 
 /**
  * delete_nodeint_at_index - A function that deletes a node in a linked

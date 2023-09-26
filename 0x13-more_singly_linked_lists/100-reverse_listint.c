@@ -1,4 +1,4 @@
-#include "list.h"
+#include "lists.h"
 
 /**
  * reverse_listint - A function that reverses a linked list
@@ -18,7 +18,7 @@ listint_t *reverse_listint(listint_t **head)
 		*head = next;
 	}
 
-	8head = prev;
+	*head = prev;
 
 	return (*head);
 }
