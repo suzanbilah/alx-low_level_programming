@@ -37,7 +37,7 @@ void close_file(int fd)
 
 	if (c == -1)
 	{
-		dprint(STDERR_FILENO, "Error: Can't close fd %d\n", fd);
+		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", fd);
 		exit(100);
 	}
 }
@@ -53,7 +53,6 @@ int main(int argc, char *argv[])
 	int from;
 	int to;
 	int r;
-	int w;
 	char *buffer;
 
 	if (argc != 3)
