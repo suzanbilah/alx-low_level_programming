@@ -14,7 +14,7 @@
  */
 typedef struct hash_node_s
 {
-	chr *key;
+	char *key;
 	char *value;
 	struct hash_node_s *next;
 } hash_node_t;
@@ -31,7 +31,7 @@ typedef struct hash_table_s
 {
 	unsigned long int size;
 	hash_node_t **array;
-} hash_tablr_t;
+} hash_table_t;
 
 /*functions*/
 hash_table_t *hash_table_create(unsigned long int size);
