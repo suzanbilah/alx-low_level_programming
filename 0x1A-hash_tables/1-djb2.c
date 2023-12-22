@@ -4,7 +4,7 @@
  * hash_djb2 - Function to compute hash of 'str' using djb2
  * @str: string to hash
  *
- * Retuen: value of 64 bits hash
+ * Return: value of 64 bits hash
  */
 unsigned long int hash_djb2(const unsigned char *str)
 {
